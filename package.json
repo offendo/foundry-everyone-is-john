@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "everyoneisjohn",
   "version": "1.0.0",
-  "description": "CSS compiler for the Boilerplate system",
+  "description": "CSS compiler for the EveryoneIsJohn system",
   "scripts": {
     "build": "gulp build",
     "compile": "gulp css",
@@ -11,13 +11,14 @@
   "browserslist": [
     "last 3 versions"
   ],
-  "author": "John Doe",
+  "author": "Offendo",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^2.6.5"
+    "gulp": "",
+    "gulp-autoprefixer": "",
+    "gulp-sass": "",
+    "gulp-sourcemaps": "",
+    "sass": ""
   }
 }

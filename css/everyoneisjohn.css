@@ -4,6 +4,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+.window-content {
+  background-image: url("../assets/bg.jpg");
+}
+
 .rollable:hover, .rollable:focus {
   color: #000;
   text-shadow: 0 0 10px red;
@@ -13,7 +17,7 @@
 .grid,
 .grid-2col {
   display: grid;
-  grid-column: span 2 / span 2;
+  grid-column: span 2/span 2;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
   margin: 10px 0;
@@ -21,52 +25,52 @@
 }
 
 .grid-3col {
-  grid-column: span 3 / span 3;
+  grid-column: span 3/span 3;
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-4col {
-  grid-column: span 4 / span 4;
+  grid-column: span 4/span 4;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-5col {
-  grid-column: span 5 / span 5;
+  grid-column: span 5/span 5;
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .grid-6col {
-  grid-column: span 6 / span 6;
+  grid-column: span 6/span 6;
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .grid-7col {
-  grid-column: span 7 / span 7;
+  grid-column: span 7/span 7;
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
 .grid-8col {
-  grid-column: span 8 / span 8;
+  grid-column: span 8/span 8;
   grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
 .grid-9col {
-  grid-column: span 9 / span 9;
+  grid-column: span 9/span 9;
   grid-template-columns: repeat(9, minmax(0, 1fr));
 }
 
 .grid-10col {
-  grid-column: span 10 / span 10;
+  grid-column: span 10/span 10;
   grid-template-columns: repeat(10, minmax(0, 1fr));
 }
 
 .grid-11col {
-  grid-column: span 11 / span 11;
+  grid-column: span 11/span 11;
   grid-template-columns: repeat(11, minmax(0, 1fr));
 }
 
 .grid-12col {
-  grid-column: span 12 / span 12;
+  grid-column: span 12/span 12;
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
@@ -223,23 +227,20 @@
   text-align: center;
 }
 
-/* Styles limited to boilerplate sheets */
-.boilerplate {
+/* Styles limited to everyoneisjohn sheets */
+.everyoneisjohn {
   /* ----------------------------------------- */
   /*  Items Lists                              */
   /* ----------------------------------------- */
-  /* Example style for Boilerplate (can be removed if not needed) */
+  /* Example style for EveryoneIsJohn (can be removed if not needed) */
 }
-
-.boilerplate .item-form {
+.everyoneisjohn .item-form {
   font-family: "Roboto", sans-serif;
 }
-
-.boilerplate .sheet-header {
+.everyoneisjohn .sheet-header {
   -webkit-box-flex: 0;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,59 +255,60 @@
   justify-content: flex-start;
   margin-bottom: 10px;
 }
-
-.boilerplate .sheet-header .profile-img {
+.everyoneisjohn .sheet-header .profile-img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100px;
   flex: 0 0 100px;
-  height: 100px;
+  height: 250px;
+  width: 250px;
   margin-right: 10px;
+  border: none;
 }
-
-.boilerplate .sheet-header .header-fields {
+.everyoneisjohn .sheet-header .header-fields {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
-
-.boilerplate .sheet-header h1.charname {
+.everyoneisjohn .sheet-header h1.charname {
   height: 50px;
   padding: 0px;
   margin: 5px 0;
   border-bottom: 0;
 }
-
-.boilerplate .sheet-header h1.charname input {
+.everyoneisjohn .sheet-header h1.charname input {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+.everyoneisjohn .sheet-header h1.charname button {
   width: 100%;
   height: 100%;
   margin: 0;
 }
-
-.boilerplate .sheet-tabs {
+.everyoneisjohn .sheet-tabs {
   -webkit-box-flex: 0;
   -ms-flex: 0;
   flex: 0;
 }
-
-.boilerplate .sheet-body,
-.boilerplate .sheet-body .tab,
-.boilerplate .sheet-body .tab .editor {
+.everyoneisjohn .sheet-body,
+.everyoneisjohn .sheet-body .tab,
+.everyoneisjohn .sheet-body .tab .editor {
   height: 100%;
 }
-
-.boilerplate .tox .tox-editor-container {
+.everyoneisjohn .tox .tox-editor-container {
   background: #fff;
 }
-
-.boilerplate .tox .tox-edit-area {
+.everyoneisjohn .tox .tox-edit-area {
   padding: 0 8px;
 }
-
-.boilerplate .resource-label {
+.everyoneisjohn .resource-label {
   font-weight: bold;
 }
-
-.boilerplate .items-header {
+.everyoneisjohn .items-header {
   height: 28px;
   margin: 2px 0;
   padding: 0;
@@ -317,13 +319,11 @@
   border: 2px groove #eeede0;
   font-weight: bold;
 }
-
-.boilerplate .items-header > * {
+.everyoneisjohn .items-header > * {
   font-size: 14px;
   text-align: center;
 }
-
-.boilerplate .items-header .item-name {
+.everyoneisjohn .items-header .item-name {
   font-weight: bold;
   padding-left: 5px;
   text-align: left;
@@ -331,8 +331,7 @@
   display: -ms-flexbox;
   display: flex;
 }
-
-.boilerplate .items-list {
+.everyoneisjohn .items-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -340,14 +339,12 @@
   scrollbar-width: thin;
   color: #444;
 }
-
-.boilerplate .items-list .item-list {
+.everyoneisjohn .items-list .item-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
-.boilerplate .items-list .item-name {
+.everyoneisjohn .items-list .item-name {
   -webkit-box-flex: 2;
   -ms-flex: 2;
   flex: 2;
@@ -362,14 +359,13 @@
   display: -ms-flexbox;
   display: flex;
 }
-
-.boilerplate .items-list .item-name h3, .boilerplate .items-list .item-name h4 {
+.everyoneisjohn .items-list .item-name h3,
+.everyoneisjohn .items-list .item-name h4 {
   margin: 0;
   white-space: nowrap;
   overflow-x: hidden;
 }
-
-.boilerplate .items-list .item-controls {
+.everyoneisjohn .items-list .item-controls {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -380,30 +376,24 @@
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
-
-.boilerplate .items-list .item-controls a {
+.everyoneisjohn .items-list .item-controls a {
   font-size: 12px;
   text-align: center;
   margin: 0 6px;
 }
-
-.boilerplate .items-list .item {
+.everyoneisjohn .items-list .item {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   padding: 0 2px;
-  border-bottom: 1px solid #c9c7b8;
 }
-
-.boilerplate .items-list .item:last-child {
+.everyoneisjohn .items-list .item:last-child {
   border-bottom: none;
 }
-
-.boilerplate .items-list .item .item-name {
+.everyoneisjohn .items-list .item .item-name {
   color: #191813;
 }
-
-.boilerplate .items-list .item .item-name .item-image {
+.everyoneisjohn .items-list .item .item-name .item-image {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 30px;
   flex: 0 0 30px;
@@ -412,15 +402,32 @@
   border: none;
   margin-right: 5px;
 }
-
-.boilerplate .items-list .item-prop {
+.everyoneisjohn .items-list .item input {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+.everyoneisjohn .items-list .item h2 {
+  border: none;
+  text-align: center;
+}
+.everyoneisjohn .items-list .item h3 {
+  border: none;
+}
+.everyoneisjohn .items-list .item h4 {
+  border: none;
+}
+.everyoneisjohn .items-list .item-prop {
   text-align: center;
   border-left: 1px solid #c9c7b8;
   border-right: 1px solid #c9c7b8;
   font-size: 12px;
 }
-
-.boilerplate .items-list .items-header {
+.everyoneisjohn .items-list .items-header {
   height: 28px;
   margin: 2px 0;
   padding: 0;
@@ -431,33 +438,23 @@
   border: 2px groove #eeede0;
   font-weight: bold;
 }
-
-.boilerplate .items-list .items-header > * {
+.everyoneisjohn .items-list .items-header > * {
   font-size: 12px;
   text-align: center;
 }
-
-.boilerplate .items-list .items-header .item-name {
+.everyoneisjohn .items-list .items-header .item-name {
   padding-left: 5px;
   text-align: left;
 }
-
-.boilerplate .item-formula {
+.everyoneisjohn .item-formula {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 200px;
   flex: 0 0 200px;
   padding: 0 8px;
 }
 
-.boilerplate .effects .item .effect-source,
-.boilerplate .effects .item .effect-duration,
-.boilerplate .effects .item .effect-controls {
-  text-align: center;
-  border-left: 1px solid #c9c7b8;
-  border-right: 1px solid #c9c7b8;
-  font-size: 12px;
-}
-
-.boilerplate .effects .item .effect-controls {
-  border: none;
+.everyoneisjohn .window-content {
+  background-color: rgb(218, 218, 218);
+  background-image: url("../assets/bg.png");
+  background-repeat: round;
 }

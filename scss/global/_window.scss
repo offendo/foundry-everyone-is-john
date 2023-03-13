@@ -2,6 +2,10 @@
   font-family: $font-primary;
 }
 
+.window-content {
+  background-image: url("../assets/bg.jpg");
+}
+
 .rollable {
   &:hover,
   &:focus {
