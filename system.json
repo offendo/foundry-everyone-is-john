@@ -24,7 +24,7 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "willpower",
   "url": "",
-  "manifest": "",
-  "download": "",
+  "manifest": "https://raw.githubusercontent.com/offendo/foundry-everyone-is-john/0.0.1/system.json",
+  "download": "https://github.com/offendo/foundry-everyone-is-john/archive/refs/tags/0.0.1.zip",
   "license": "LICENSE.txt"
 }
